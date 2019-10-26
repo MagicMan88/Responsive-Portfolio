@@ -226,21 +226,6 @@ input[type=submit] {
 }
 
 /* media queries */
-@media screen and (max-width: 980px) {
-    .main-container {
-        max-width: 100%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .main-container {
-        max-width: 100%;
-    }
-    body {
-        max-width: 100%;
-        margin: 0 auto;
-    }
-}
 
 @media screen and (max-width: 640px) {
     #masthead a {
@@ -252,7 +237,26 @@ input[type=submit] {
     .main-container {
         max-width: 100%;
     }
+    #logo {
+        max-width: 100%;
+    }
     .sidebar{
         max-width: 100%;
     }
   }
+
+@media screen and (max-width: 768px) {
+    .main-container {
+        max-width: 100%;
+    }
+    body {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .main-container {
+        max-width: 100%;
+    }
+}
