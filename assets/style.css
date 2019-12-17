@@ -143,6 +143,7 @@ h3, sidebar, h2 {
 
 /*footer*/
 footer {
+    width: auto;
     background: #666;
     color: #fff;
     padding: 30px 0;
@@ -160,6 +161,7 @@ footer {
     position: relative;
     float: left;
     margin: 20px 0 25px;
+    overflow: hidden;
 }
 
 .work:nth-child(even) {
